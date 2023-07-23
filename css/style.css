@@ -1,0 +1,776 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+body{
+
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+       
+        
+}
+
+    
+/* start header */
+header{
+
+
+padding: 8px;
+background-color:white;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+/* hna ndiro khate ya3ni border bache yhadeldna header win yebda ou wine yakmel */
+border-top: 0.5px solid rgb(199, 194, 194);
+/* border-bottom: 0.5px solid rgb(143, 142, 142); */
+/* hna derna khiale i mean shadawo mihware x 0 y 1 px blure 0.5px */
+box-shadow:  0 1px 0.5px rgb(175, 174, 174);
+position: sticky;
+left: 0;
+top: 0;
+z-index: 999;
+
+
+
+}
+
+.header-middel{
+    width: 75%;
+    padding: 2px;
+    /* background-color: aquamarine;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* start style logo instagram */
+.logo{
+
+    width: 18%;
+    /* height: 80%; */
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    /* font-size: 25px; */
+   
+   
+}
+ .logo img{
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    
+   
+     
+      
+
+}
+
+
+      
+
+/* end style logo instagram */
+
+
+
+/* start  style bare recherche */
+.search-box{
+
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    /* background-color: bisque; */
+    cursor: pointer;
+ 
+   
+   
+   
+   
+
+   
+    
+   /* background-color: rgba(239, 239, 239, 1); */
+}
+
+.search-box input{
+
+    background-color: #efefef;
+    padding-left: 12px;
+    border-radius: 10px;
+    /* ndiroha 9bale matakliquer bache yamcher border */
+    border: none;
+    width: 85%;
+    /* ndiroha bache ki cliquer yamcher border */
+    outline: none;
+   
+   
+}
+/* hadi ndiroha ki nabgi nbadel haja da5ale input bla manbadel ga3 input like type font or color */
+input::placeholder{
+
+    color: black;
+    font-style: italic;
+}
+/* end bare recherche */
+
+
+
+
+
+/* start style navigation */
+
+
+.nav{
+
+
+    /* background-color: orangered; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+    justify-content: space-around;
+    
+}
+
+/* end syle navigation */
+.nav i{
+    font-size: 22px;
+   
+
+}
+.account{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   
+}
+
+
+
+ 
+
+
+
+/* end header */
+
+main{
+width: 100%;
+height: 90vh;
+/* background-color: yellow; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 12px;
+
+
+}
+
+.main-both{
+
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+.main-left{
+    width: 60%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  
+   
+ 
+  
+
+}
+/* hna gadi ndiroo les storiyat */
+.story{
+
+    width:100% ;
+    height: 120px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px ;
+    justify-content: space-between;
+    border:0.5px solid rgb(199, 194, 194) ;
+    padding-top: 6px;
+    
+    
+    
+   
+   
+   
+
+    
+   
+}
+.story::-webkit-scrollbar{
+
+    display: none;
+}
+.user-story{
+    /* background-color: rgb(248, 250, 252); */
+    width: 88px;
+    height: 88px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    margin-left: 4px;
+    /* overflow-x: scroll; */
+    
+    
+   
+   
+   
+  
+  
+}
+.back{
+
+  
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(245, 241, 242), white), linear-gradient(90deg, rgba(252,0,199,1) 0%, rgba(255,5,77,1) 18%, rgba(254,131,0,1) 100%);  ; 
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    
+    border: 2px solid transparent;
+   
+    
+}
+.user-story img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+   
+    
+    
+    
+   
+  }
+   
+
+    
+
+.user-story p{
+    font-size: 11px;
+}
+
+
+
+.post{
+
+    width: 100%;
+    
+    /* background-color: blueviolet; */
+    border: 0.5px solid rgb(170, 168, 168);
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+
+   
+   
+}
+.test{
+    margin-top: 30px;
+}
+
+
+.my-account{
+    /* background-color: green; */
+    width: 100%;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.my-account img{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin: 6px;
+    cursor: pointer;
+ 
+
+    
+ }
+ .my-account p{
+
+    color: black;
+    font-weight: bold;
+    padding-left: 12px;
+    cursor: pointer;
+ }
+
+.img-post{
+    /* background-color: aqua; */
+    width: 100%;
+    height:585px ;
+}
+.img-post img{
+    width: 100%;
+   height: 100%;
+}
+
+
+.social{
+    /* background-color: bisque; */
+    width: 100%;
+    /* height: 129px; */
+   
+}
+
+.commentaire{
+
+    width: 100%;
+    height: 46px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    padding: 0px 0px 6px;
+    margin: 4px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+.icone {
+    padding: 8px;
+    
+}
+.icone i{
+    margin-right: 8px;
+}
+
+.footer-content{
+    padding:0 16px 16px 16px ;
+    /* background-color: salmon; */
+   
+
+
+}
+.footer-content p{
+    margin-bottom: 3px;
+    
+}
+
+    
+.description{
+    width: 100%;
+    /* height: 54px; */
+    /* background-color: yellow; */  
+}
+.translate{
+    font-size:12px ;
+    font-weight: bolder;
+}
+.comment{
+    font-weight: lighter;
+
+
+}
+.add-comment{
+    /* width: 100%; */
+    /* background-color: firebrick; */
+    display: flex;
+    padding: 16px;
+    border-top: 1px solid rgb(128, 125, 125);
+    align-items: center;
+    justify-content: space-between;
+}
+.add-comment .left-side{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: sienna; */
+}
+.add-comment .left-side i{
+    margin-right: 13px;
+    font-size: 22px;
+}
+.add-comment .left-side input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+.right-side p{
+    color: rgb(0, 119, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.main-right{
+    width: 40%;
+    height: 70%;
+    /* background-color: darkorange; */
+    position: fixed;
+    right: 30px;
+   
+
+   
+
+}
+.profile-card{
+    width: 100%;
+    height:20% ;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* justify-content: space-between; */
+ }
+
+ .my-information{
+    margin-right: 92px;
+ }
+ 
+   
+ 
+
+  .profile-card .username{
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+  } 
+  
+  .profile-card .sub-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+
+
+  }
+  
+  
+  
+ 
+
+
+   
+.profile-pic{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+  
+
+}
+
+.profile-pic img{
+    width:62px ;
+    height: 62px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.action-btn{
+
+    width: 70px;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: rgb(0, 162, 255);
+    opacity: 1;
+    cursor: pointer;
+    font-weight: 700;
+    /* justify-content: space-between; */
+   
+}
+.suggestion-text{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.suggestion-text p{
+    margin-right: 95px;
+}
+
+
+.suggestion-text .sg{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    
+
+    
+}
+
+
+.suggestion-title{
+    display: flex;
+    /* background-color: sienna; */
+    align-items: center;
+    /* justify-content: end; */
+    margin-bottom: 10px;
+  
+
+}
+
+.Suggestion-left{
+    margin-right: 12px;
+    /* background-color: aqua; */
+
+}
+
+.Suggestion-left img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left:20px ;
+    cursor: pointer;
+}
+
+.abcd{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.detaile{
+    /* margin-right: 80px; */
+    /* background-color: brown; */
+    /* justify-content: space-between; */
+
+}
+.detaile .name-count{
+    font-weight: 700;
+    color: #000;
+}
+.detaile .info{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.follow-me p{
+    font-weight: 700;
+    color: rgb(0, 162, 255);
+    cursor: pointer;
+    /* background-color: khaki; */
+    margin-left: 80px;
+    
+    }
+
+    /* media queris */
+    @media (max-width:1110px){
+        .search-box{
+            /* display: none; */
+        }
+        .main-both{
+            width: 90%;
+            margin-right: 15px;
+
+        }
+        .main-right{
+            /* margin-left: 0; */
+        }
+        
+        
+        
+            
+        
+
+
+    }
+
+    
+    @media (max-width:982px){
+        header{
+            padding: 08px 16px;
+            /* background-color: blue; */
+         
+        }
+
+        .main-both{
+            /* width: 75%; */
+        }
+        .main-both .main-left{
+            width: 95%;
+        }
+        .main-both .main-right{
+            display: none;
+        }
+        .nav i{
+            margin-right: 15px;
+        }
+
+    }
+
+
+    @media (max-width:768px){
+        .main-both{
+            /* width: 75%; */
+        }
+
+        .search-box{
+            display: none;
+        }
+        main{
+
+            padding: 30px 20px;
+        }
+        .story {
+            width: 100%;  
+        }
+        .story .user-story{
+            width: 75px; ;
+            height: 75px;
+        }
+        .back{
+            width: 52px;
+            height: 52px;
+        }
+        .user-story img{
+            width: 45px;
+            height: 45px;
+        }
+        .nav i{
+            margin-right: 12px;
+        }
+    }
+
+    @media (max-width:635px){
+
+        .main-both{
+            width: 80%;
+        }
+
+        .story{
+            width: 100%;
+           
+        }
+
+
+        .story .user-story{
+            width: 65px; ;
+            height: 65px;
+           
+        }
+        .back{
+            width: 42px;
+            height: 42px;
+        }
+        .user-story img{
+            width: 35px;
+            height: 35px;
+
+    }
+
+      }
+
+      @media (max-width:468px){
+
+
+        .main-both{
+            width: 100%;
+        }
+        .header-middel{
+            /* margin: 10px 20px; */
+            /* align-items: center; */
+           
+        }
+        .nav i{
+            margin-right: 8px;
+        }
+        .nav img{
+            /* padding-right: 3px; */
+        }
+        header{
+            padding: 4px 8px;
+            justify-content: space-between;
+           
+
+        }
+        .header-middel{
+            width: 90%;
+        }
+        
+            
+        
+
+        
+        }
+        
+
+    
+            
+       
+        
+
+        
+
+            
+    
+
+
+     
+        
+        
+        
+       
+      
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
